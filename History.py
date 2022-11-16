@@ -3,8 +3,8 @@ import time
 import pyodbc
 
 
-cnxn = pyodbc.connect("Driver={/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.0.so.1.1};"
-                      "Server=XAMAH;"
+cnxn = pyodbc.connect("Driver={SQL Server Native Client 11.0};"
+                      "Server=root;"
                       "Database=Basketbol;"
                       "Trusted_Connection=yes;")
 cursor = cnxn.cursor()

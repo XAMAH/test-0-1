@@ -13,7 +13,7 @@ server.bind(('127.0.0.1', 2000))
 server.listen()
 
 
-cnxn = pyodbc.connect("Driver={/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.0.so.1.1};"
+cnxn = pyodbc.connect("Driver={SQL Server Native Client 11.0};"
                       "Server=root;"
                       "Database=Basketbol;"
                       "Trusted_Connection=yes;")
