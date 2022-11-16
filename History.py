@@ -3,7 +3,7 @@ import time
 import pyodbc
 
 
-cnxn = pyodbc.connect("Driver={SQL Server Native Client 17.0};"
+cnxn = pyodbc.connect("Driver={SQL Server Native Client 17.10.1.1-1};"
                       "Server=root;"
                       "Database=Basketbol;"
                       "Trusted_Connection=yes;")
